@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+       <!-- css -->
+       <link rel="stylesheet" href="../css/style.css">
+       <link rel="stylesheet" href="../css/loading.css">
+       <!-- link w3school -->
+       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <title>Yao-Detail</title>
+    <style>
+         body {
+            font-family: 'Signika Negative', sans-serif;
+            min-height: 100vh;
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="laoding">
+        <div class="right"></div>
+        <div class="right"></div>
+        <div class="right"></div>
+    </div>
+
+    <div class="animate-body container col-lg-13 shadow-sm mt-5">
+        <!-- what i do  -->
+        <div class="icon--cancel mt-2">
+            <a href="#" onclick="history.back()"> <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill=" currentColor " class=" bi-x-lg " viewBox="0 0 16 16 ">
+            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z "/>
+          </svg></a>
+        </div>
+        <div class="container text-center " id="i_do">
+
+            <div class=" ">
+                <div class="col-lg-12 ">
+                    <div class="section-title ">
+                        <span class=" ">Features</span>
+                        <h2 class=" ">Development</h2>
+                    </div>
+                    <!-- <div class="content wh--do">
+
+                      
+                            <p class="drt p-3 text-justify"> <b>Back-End</b> LG: Python, PHP and JavaScript. <br> <b>Frameworks:</b> Django and Node.js. <br> <b> Databases:</b> MySQL, SQLite, postgreSQL and MongoDB. <br> <b>Front-end</b> LG: HTML,CSS JavaScript. <br> <b>Framework: </b> Bootstrap. </p>
+
+                    </div> -->
+                </div>
+            </div>
+
+        </div>
+
+        <!--  Portfolio-->
+
+        <div class="container " id="portfolio">
+
+            <div class="row  ">
+                <!-- -------start block portfolio -->
+                <div class="col-lg-4 col-xl-3 col-md-6 col-12 ">
+                    <div class="inner shadow-sm cours2 white-backgroud box--hover " style="overflow:hidden; ">
+                        <div class="text-center img--hover ">
+                            <a href="./portfolio/portfolio-iater.html">
+                                <img src="../img/iater's-website.png" alt="Image" class="Portfolio_Images2 hover ">
+                            </a>
+                        </div>
+                        <div >
+    
+                            <div class="category-info m-lg-4 ">
+                                <a href="../portfolio/portfolio-iater.html"
+                                    class="nav-link text--text ">iATER's website</a>
+                                <span class="value_like"><a href="#"><i
+                                            class="fa-regular fa-heart logo_like"></i></a></span>
+                            </div>
+                            <div class="cours4 col-12 text-center ">
+                                <a href="../portfolio/portfolio-iater.html" class="nav-link cou ">View<i
+                                        class="fa-solid fa-arrow-up "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!-- -------end block portfolio ----->
+
+                <!-- blog -->
+
+                <div class="col-lg-4 col-xl-3 col-md-6 col-12 mt-4 ">
+                    <div class="row cours2 inner shadow-sm blog--box white-backgroud box--hover "
+                        style="overflow:hidden; ">
+                        <div class="text-center ">
+                            <div class=" ">
+                                <div class="thumbnail img--hover ">
+                                    <a href="./detail-blog/detailBlog.html">
+                                        <img class="hover Portfolio_Images2" src="{{bl.blog_pic.url}}" >
+                                    </a>
+                                </div>
+                                <a href="./detail-blog/detailBlog-dendee-sch.html">
+                                    <div class="cours3 col-12 ">
+                                        <h4 class=" nav-link por--text ">
+                                            Our team have teach IT to dream school in Bokeo province</h4>
+                                    </div>
+                                </a>
+                                <div class="content ">
+                                    <div class="category-info m-lg-3 ">
+                                        <a href="./detail-blog/detailBlog-dendee-sch.html"
+                                            class="nav-link text--text ">Teach IT Basic to Dream school</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cours4 col-12 text-center ">
+                            <a href="./detail-blog/detailBlog-dendee-sch.html" class=" nav-link cou ">View More</a>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+
+
+
+        </div>
+
+        
+
+        <br>
+        <br>
+
+        <div class="row container">
+            <!-- .....--------------skill------------ -->
+            <div class="text-center">
+                <div id="skil "><span class="subtitle ">Features</span>
+                    <h4>Skill</h4>
+                </div>
+                <div class="row">
+                    <!-- Start Single Progressbar  -->
+                    <div class="col-lg-6 col-md-6 col-12 container">
+                        <div class="progress-wrapper">
+                            <div class="content ">
+                                <!-- Start Single Progress Charts -->
+                                <div class="progress-charts box--hover">
+                                    <h6 class="heading heading-h6 ">HTML</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" data-wow-duration="0.5s " data-wow-delay=".3s " role="progressbar " style="width: 90% " aria-valuenow="85" aria-valuemin="0 " aria-valuemax="100 "><span class="percent-label ">90%</span></div>
+                                    </div>
+                                </div>
+                                <!-- End Single Progress Charts -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 container">
+                        <div class="progress-wrapper">
+                            <div class="content ">
+                                <!-- Start Single Progress Charts -->
+                                <div class="progress-charts box--hover">
+                                    <h6 class="heading heading-h6 ">CSS</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" data-wow-duration="0.5s " data-wow-delay=".3s " role="progressbar " style="width: 80% " aria-valuenow="85" aria-valuemin="0 " aria-valuemax="100 "><span class="percent-label ">90%</span></div>
+                                    </div>
+                                </div>
+                                <!-- End Single Progress Charts -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 container">
+                        <div class="progress-wrapper">
+                            <div class="content ">
+                                <!-- Start Single Progress Charts -->
+                                <div class="progress-charts box--hover">
+                                    <h6 class="heading heading-h6 ">JavaScript</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" data-wow-duration="0.5s " data-wow-delay=".3s " role="progressbar " style="width: 40% " aria-valuenow="85" aria-valuemin="0 " aria-valuemax="100 "><span class="percent-label ">90%</span></div>
+                                    </div>
+                                </div>
+                                <!-- End Single Progress Charts -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 container">
+                        <div class="progress-wrapper">
+                            <div class="content ">
+                                <!-- Start Single Progress Charts -->
+                                <div class="progress-charts box--hover">
+                                    <h6 class="heading heading-h6 ">Python</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" data-wow-duration="0.5s " data-wow-delay=".3s " role="progressbar " style="width: 60% " aria-valuenow="85" aria-valuemin="0 " aria-valuemax="100 "><span class="percent-label ">90%</span></div>
+                                    </div>
+                                </div>
+                                <!-- End Single Progress Charts -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 container">
+                        <div class="progress-wrapper">
+                            <div class="content ">
+                                <!-- Start Single Progress Charts -->
+                                <div class="progress-charts box--hover">
+                                    <h6 class="heading heading-h6 ">PHP</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" data-wow-duration="0.5s " data-wow-delay=".3s " role="progressbar " style="width: 80% " aria-valuenow="85" aria-valuemin="0 " aria-valuemax="100 "><span class="percent-label ">90%</span></div>
+                                    </div>
+                                </div>
+                                <!-- End Single Progress Charts -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 container">
+                        <div class="progress-wrapper">
+                            <div class="content ">
+                                <!-- Start Single Progress Charts -->
+                                <div class="progress-charts box--hover">
+                                    <h6 class="heading heading-h6 ">Database</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" data-wow-duration="0.5s " data-wow-delay=".3s " role="progressbar " style="width: 70% " aria-valuenow="85" aria-valuemin="0 " aria-valuemax="100 "><span class="percent-label ">90%</span></div>
+                                    </div>
+                                </div>
+                                <!-- End Single Progress Charts -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+        <!-- <div class="row">
+            <div class="col-6">
+                <canvas id="myChartline"></canvas>
+            </div>
+            <div class="col-6">
+                <canvas id="myChartBar"></canvas>
+            </div>
+        </div> -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+        <!-- <script>
+            var endpoint = '/Skill_chart';
+
+            $.ajax({
+                method: "GET",
+                url: endpoint,
+                success: function(data) {
+                    drawLineGraph(data, 'myChartline');
+                    drawBarGraph(data, 'myChartBar');
+                    console.log("drawing");
+                },
+                error: function(error_data) {
+                    console.log(error_data);
+                }
+            })
+
+
+            function drawLineGraph(data, id) {
+                var labels = data.labels;
+                var chartLabel = data.chartLabel;
+                var chartdata = data.chartdata;
+                var ctx = document.getElementById(id).getContext('2d');
+                var chart = new Chart(ctx, {
+                    // The type of chart we want to create
+                    type: 'line',
+
+                    // The data for our dataset
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: chartLabel,
+                            backgroundColor: 'rgb(255, 100, 200)',
+                            borderColor: 'rgb(55, 99, 132)',
+                            data: chartdata,
+                        }]
+                    },
+
+                    // Configuration options go here
+                    options: {
+                        scales: {
+                            xAxes: [{
+                                display: true
+                            }],
+                            yAxes: [{
+                                ticks: {
+                                    beginAtZero: true
+                                }
+                            }]
+                        }
+                    }
+
+                });
+            }
+
+            function drawBarGraph(data, id) {
+                var labels = data.labels;
+                var chartLabel = data.chartLabel;
+                var chartdata = data.chartdata;
+                var ctx = document.getElementById(id).getContext('2d');
+                var myChart = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: chartLabel,
+                            data: chartdata,
+                            backgroundColor: [
+                                'rgba(255, 99, 132, 0.2)',
+                                'rgba(54, 162, 235, 0.2)',
+                                'rgba(255, 206, 86, 0.2)',
+                                'rgba(75, 192, 192, 0.2)',
+                                'rgba(153, 102, 255, 0.2)',
+                                'rgba(255, 159, 64, 0.2)'
+                            ],
+                            borderColor: [
+                                'rgba(255, 99, 132, 1)',
+                                'rgba(54, 162, 235, 1)',
+                                'rgba(255, 206, 86, 1)',
+                                'rgba(75, 192, 192, 1)',
+                                'rgba(153, 102, 255, 1)',
+                                'rgba(255, 159, 64, 1)'
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            yAxes: [{
+                                ticks: {
+                                    beginAtZero: true
+                                }
+                            }]
+                        }
+                    }
+                });
+            }
+       
+       </script>
+        -->
+       
+       <style>
+            .icon--cancel {
+                position: relative;
+                font-size: 20px;
+                float: right;
+            }
+            
+            .icon--cancel svg {
+                color: red;
+                transition: 1s;
+            }
+            
+            .icon--cancel svg:hover {
+                margin-top: -1rem;
+            }
+            
+            .progress-bar {
+                background-color: var(--pink);
+                height: 12px;
+                margin-top: 2px;
+                animation: 2s skill;
+            }
+            
+            @keyframes skill {
+                0% {
+                    width: 0px;
+                }
+            }
+            
+            .educate_class {
+                animation: 1s education;
+                opacity: 1;
+            }
+            
+            .educate_class2 {
+                animation: 2s education2;
+                opacity: 1;
+            }
+            
+            @keyframes education {
+                0% {
+                    transform: translateY(100px);
+                    opacity: 0;
+                }
+            }
+            
+            @keyframes education2 {
+                0% {
+                    transform: translateY(100px);
+                    opacity: 0;
+                }
+            }
+            
+            .eperience_animation {
+                animation: 1s eperience_ani;
+                opacity: 1;
+            }
+            
+            @keyframes eperience_ani {
+                0% {
+                    transform: translateY(100px);
+                    opacity: 0;
+                }
+            }
+            
+            .img--slide {
+                width: 20rem;
+            }
+            
+            .box--hover:hover {
+                animation: box_hover 1s;
+            }
+            
+            @keyframes box_hover {
+                50% {
+                    transform: translateY(-10px);
+                }
+            }
+        </style>
+
+
+
+
+
+
+        <!-- ================== my contect  ============ -->
+        <div class="contac " id="contact ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-lg-12 ">
+                        <div class="section-title text-center ">
+                            <span class="subtitle ">Contact</span>
+                            <h2 class="title ">Contact With Me</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row ">
+                    <div class="col-lg-5 ">
+    
+                        <div>
+                            <div>
+                                <img src="../img/profile.jpg" onclick="onClick(this)"
+                                    style=" width: 350px; height: 150px; object-fit: cover; margin:0 auto; border-radius: 5px; "
+                                    alt="Personal Portfolio Images ">
+                            </div>
+                            <div>
+                                <!-- <h4 class=" ">{{profi.location}}</h4> -->
+                                <!-- <span>😉😉</span> -->
+                            </div>
+                            <div class="description ">
+                                <p class="mt-3">Hello! My name is YAO VA from Laos. %%%%  </p>
+                              
+                                
+                                <p class="mt-2 color-gray"><b><i class=" bi-telephone-fill"></i></b> +856 2098009597</p>
+    
+                                <p class="color-gray"><b><i class=" bi-envelope"></i></b> odxyo54@gmail.com </p>
+                                <p class="color-gray"><b><i class=" bi-geo-alt"></i></b> Donkoi village, Sisattanak
+                                    district,
+                                    Vientiane Capital, Laos </p>
+    
+                            </div>
+                            <div class="social-area ">
+                                <div class="name ">FIND WITH ME</div>
+                                <div class="social-icone ">
+                                    <ul class="nav me-auto mb-2 mb-lg-0 ">
+                                        <li class="nav">
+                                            <a class="nav-link logo--me " aria-current="page " target="_blank"
+                                                href="https://github.com/ayaoVA01"><i class=" bi-github  logo--me"></i></a>
+                                        </li>
+                                        <li class="nav">
+                                            <a class="nav-link logo--me " aria-current="page " target="_blank"
+                                                href="https://www.youtube.com/channel/UCeKoCMKou4WZ5T2hFaySZWg"><i
+                                                    class=" bi-youtube  logo--me"></i></a>
+                                        </li>
+                                        <li class="nav">
+                                            <a class="nav-link  logo--me
+                                            " target="_blank" aria-current="page "
+                                                href="https://www.facebook.com/houa.odx "><i
+                                                    class="fa-brands fa-facebook  logo--me"></i></a>
+                                        </li>
+                                        <li class="nav">
+                                            <a class="nav-link  logo--me" target="_blank" aria-current="page " href="# "><i
+                                                    class="fa-brands fa-whatsapp  logo--me"></i></a>
+                                        </li>
+                                        <!-- <li class="nav">
+                                            <a class="nav-link  logo--me" target="_blank" href="# "><i
+                                                    class="fa-brands fa-instagram  logo--me"></i></a>
+                                        </li> -->
+                                        <li class="nav">
+                                            <a class="nav-link logo--me " href="#" aria-current="page"><i
+                                                    class=" bi-tiktok  logo--me"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                    <div class="col-lg-7  white-backgroud">
+    
+                        <div class="introduce ">
+                            <form class="row " id="contact-form " method="POST" action=""
+                                enctype="multipart/form-data ">
+                                
+                                <div class="col-lg-6 p-4">
+                                    <div class="form-group ">
+                                        <label for="contact-name ">Your Name</label>
+                                        <input class="form-control " name="name" id="contact-name " type="text " required>
+                                    </div>
+                                </div>
+    
+                                <div class="col-lg-6 p-4">
+                                    <div class="form-group ">
+                                        <label for="contact-phone ">Whatsapp number</label>
+                                        <input class="form-control " name="phone" id="contact-phone " type="text " required>
+                                    </div>
+                                </div>
+    
+                                <div class="col-lg-12 ">
+                                    <div class="form-group ">
+                                        <label for="message ">Your Message</label>
+                                        <textarea class="form-control form-control-sm " name="message" id="contact-message "
+                                            cols="53 " rows="6 " required></textarea>
+                                    </div>
+                                </div>
+    
+                                <div class="col-lg-12 ">
+                                    <button name="submit " type="submit" id="submit " class="rn-btn send--form ">
+                                        <span>Send</span>
+                                        <i data-feather="arrow-right"></i>
+                                    </button>
+                                </div>
+    
+                                <p style="font-size: 12px; color: gray;">Your message will be sent to me on WhatsApp. Please
+                                    provide your WhatsApp number!</p>
+                            </form>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container section-title ">
+            <div class="row ">
+                <div class="col-lg-12 ">
+                    <div class="footer-area text-center ">
+
+                        <div class="logo ">
+                            <a href="index.html ">
+                                <img src="../img/profile.jpg" alt="logo " class="footer--logo ">
+                            </a>
+                        </div>
+
+                        <p class="description mt--30 ">© 2022. All rights reserved by
+                            <a target="_blank " href="https://www.facebook.com/houa.odx ">JacoB</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12 "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+    <script src="../js/main.js"></script>
+
+</body>
