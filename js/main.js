@@ -13,7 +13,7 @@
 const text = document.querySelector(".auto-type");
 const textload = () => {
     setTimeout(() => {
-        text.textContent = "Youtuber";
+        text.textContent = "Developer";
     }, 0)
     setTimeout(() => {
         text.textContent = "Back-End";
@@ -28,6 +28,7 @@ setInterval(textload, 12000);
 //loading web page
 
 window.addEventListener("load", () => {
+    // const body = document.getElementById("hided");
     const loader = document.querySelector(".laoding")
     loader.classList.add('loader-hidden');
     document.querySelector("click_close").style.display = 'none';
@@ -35,4 +36,4 @@ window.addEventListener("load", () => {
         document.body.removeChild("loader");
     })
 })
-document.getElementBy
+document.getElementBy="hidden"
