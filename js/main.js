@@ -37,3 +37,12 @@ window.addEventListener("load", () => {
     })
 })
 document.getElementBy="hidden"
+
+
+// //////-print resume
+function openAndPrintPageB() {
+    const printWindow = window.open('resume.html');
+    printWindow.onload = function() {
+        printWindow.printPageContent();
+    };
+}
